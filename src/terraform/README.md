@@ -7,7 +7,7 @@ Installs the Terraform CLI and optionally TFLint and Terragrunt. Auto-detects la
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/terraform:1": {}
+    "ghcr.io/FabrizioCafolla/features/terraform:1": {}
 }
 ```
 
@@ -29,6 +29,8 @@ Installs the Terraform CLI and optionally TFLint and Terragrunt. Auto-detects la
 
 - `HashiCorp.terraform`
 
+
+
 ## Licensing
 
 On August 10, 2023, HashiCorp announced a change of license for its products, including Terraform. After ~9 years of Terraform being open source under the MPL v2 license, it was to move under a non-open source BSL v1.1 license, starting from the next (1.6) version. See https://github.com/hashicorp/terraform/blob/main/LICENSE
@@ -42,4 +44,4 @@ This Feature should work on recent versions of Debian/Ubuntu-based distributions
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/terraform/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/FabrizioCafolla/features/blob/main/src/terraform/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

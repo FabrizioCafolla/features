@@ -7,7 +7,7 @@ Installs shared libraries for NVIDIA CUDA.
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/nvidia-cuda:1": {}
+    "ghcr.io/FabrizioCafolla/features/nvidia-cuda:1": {}
 }
 ```
 
@@ -20,7 +20,7 @@ Installs shared libraries for NVIDIA CUDA.
 | installNvtx | Additionally install NVIDIA Tools Extension (NVTX) | boolean | false |
 | installToolkit | Additionally install NVIDIA CUDA Toolkit | boolean | false |
 | cudaVersion | Version of CUDA to install | string | 11.8 |
-| cudnnVersion | Version of cuDNN to install | string | 8.6.0.163 |
+| cudnnVersion | Version of cuDNN to install | string | automatic |
 
 ## Compatibility
 
@@ -57,4 +57,4 @@ This Feature should work on recent versions of Debian/Ubuntu-based distributions
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/nvidia-cuda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/FabrizioCafolla/features/blob/main/src/nvidia-cuda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
